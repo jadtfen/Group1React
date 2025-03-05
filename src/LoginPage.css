@@ -1,0 +1,81 @@
+\/* Body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+    background: #FFFFFF; /* Full white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content to the top */
+    height: 100vh; /* Makes the body take the full height of the viewport */
+}
+
+/* Title bar at the top of the page */
+.title-bar {
+    width: 100%; /* Makes the title bar stretch across the whole width */
+    background: #f2de91; /* Light yellow background */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Centers text in the title bar */
+    font-size: 24px; /* Sets the font size */
+    font-weight: bold; /* Makes the font bold */
+    position: absolute; /* Positions the title bar at the top */
+    top: 0;
+    left: 0;
+}
+
+/* Login container for the form */
+.login-container {
+    width: 530px; /* Sets the width of the login container */
+    text-align: center; /* Centers the text inside */
+    margin-top: 100px; /* Adds top margin to prevent overlap with the title bar */
+}
+
+/* Header text inside the login form */
+.login-header {
+    margin-top: 20px; /* Adds top margin for spacing */
+    font-size: 18px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Grouping for each input field and its label */
+.input-group {
+    margin: 15px 0; /* Adds vertical space between input groups */
+    text-align: left; /* Aligns label and input to the left */
+}
+
+/* Label styling for input fields */
+.input-group label {
+    display: block; /* Makes the label block-level */
+    font-size: 14px; /* Sets the font size for the label */
+    margin-bottom: 5px; /* Adds space below the label */
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%; /* Makes the input field take the full width of its container */
+    padding: 10px; /* Adds padding inside the input */
+    border: 1px solid #ccc; /* Light gray border for the input */
+    border-radius: 4px; /* Rounds the corners of the input */
+}
+
+/* Readonly input fields with special styling */
+.input-field[readonly] {
+    background: #d3d3d3; /* Light gray background for readonly fields */
+    color: black; /* Black text color for better readability */
+}
+
+/* Login button styling */
+.login-button {
+    background: #84783f; /* Olive green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Removes the border */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 16px; /* Sets the font size */
+    margin-top: 10px; /* Adds space above the button */
+}
+
+/* Hover effect for the login button */
+.login-button:hover {
+    background: #6c6332; /* Darkens the button's background color when hovered */
+}
