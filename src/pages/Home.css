@@ -1,0 +1,42 @@
+
+
+.header-container {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.nav-buttons button {
+    padding: 10px 10px;
+    margin: 20px;
+    width: 150px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(169, 212, 81);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #84ca4a;
+    transform: scale(1.05); /* Button grows slightly on hover */
+}
+
+.events{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+}
+
+.news{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+}
